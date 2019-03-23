@@ -1,0 +1,122 @@
+/* Style */
+
+* {
+  font-weight: 100;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #050c47;
+  color: #ffffff;
+  font-weight: 100;
+  font-size: 0.9em;
+  line-height: 1.2em;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  background-color: #e5eff2;
+  border: 1px solid #999999;
+  width: 95%;
+}
+
+h1 {
+  font-size: 2.5em;
+  font-weight: 400;
+  color: #c32a26;
+}
+
+h2 {
+  font-size: 1.7 em;
+  font-weight: 200;
+  margin: 20px 5px 10px 5px;
+}
+
+p {
+  margin: 10px 5px 10px 5px;
+}
+
+#wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#printTravelLog {
+  padding: 10px;
+  background-color: #efffff;
+  border: 1px solid #eaeaea;
+}
+
+#errorMessage {
+  color: #ef0d35;
+  font-weight: 900;
+  font-size: 1, 2em;
+}
+
+#wallEIcon {
+  font-size: 1.2em;
+  font-weight: 400;
+  color: #ffbb51;
+}
+
+#gridTable {
+  margin: 0 auto;
+  width: 600px;
+  background-color: #ffffff;
+}
+
+#gridTable td {
+  text-align: center;
+  font-size: 0.7em;
+  color: #ffbb51;
+  width: 60px;
+  height: 60px;
+}
+
+.container {
+  display: flex;
+  justify-content: flex-start;
+  border: 1px solid #999999;
+  width: 95%;
+  background-color: #e5eff2;
+  color: #050c47;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.grid {
+  background-color: #ffffff;
+  border: 1px solid #c0c0c0;
+  margin: 20px 20px 20px 20px;
+  padding: 10px;
+  width: 720px;
+  height: 720px;
+}
+
+.roverImg {
+  width: 35px;
+  height: 35px;
+}
+
+#txtCommand {
+  margin: 10px 5px 10px 5px;
+  background-color: #edf4fb;
+  border: 1px solid #1e6392;
+  height: 30px;
+}
+
+.button {
+  margin: 10px 5px 10px 5px;
+  border-radius: 6px;
+  background-color: #ef0d35;
+  border: 1px solid #d02718;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 1.3 em;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+}
