@@ -1,10 +1,6 @@
 // ======================
 // Rover Object Goes Here
 
-// let myRover = {
-//   direction: 'N'
-//   // direction values: 'N', 'S', 'E', 'W'
-// }
 
 document.addEventListener("DOMContentLoaded", function (event) {
   roverGrid.buildGrid('gridTable');
@@ -117,7 +113,7 @@ class Rover {
 
     document.getElementById('printDirection').innerHTML = 'Turning ' + this.direction + ' ' + this.directionIcon;
 
-    document.getElementById('wallEIcon').innerHTML = this.directionIcon;
+    // document.getElementById('wallEIcon').innerHTML = this.directionIcon;
     this.drawRover();
 
   }
@@ -154,7 +150,7 @@ class Rover {
 
     document.getElementById('printDirection').innerHTML = 'Turning ' + this.direction + ' ' + this.directionIcon;
 
-    document.getElementById('wallEIcon').innerHTML = this.directionIcon;
+    // document.getElementById('wallEIcon').innerHTML = this.directionIcon;
     this.drawRover();
   }
 
